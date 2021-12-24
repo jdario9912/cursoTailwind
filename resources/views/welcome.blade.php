@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curso Tailwind</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <style>
+        .imagen{
+            background-image: url("{{asset('img/field-g74c45bb4f_1920.jpg')}}");
+            height: 400px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
 
     <div class="container">
 
-        <h1 class="text-xl text-center md:text-right xl:text-right hover:text-gray-200">Este es el titulo</h1>
-        
-        <p class="tracking-tighter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus inventore molestiae ad nisi ipsa est modi iure quasi. Iste, ducimus similique! Dolor quos nulla culpa mollitia incidunt nam quia provident.</p>
-
-        <ul>
-            <li class="hover:text-gray-300 list-disc md:list-disc xl:list-disc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio consequatur sit exercitationem fugit, voluptatum rerum libero, fugiat ipsam obcaecati recusandae consequuntur repellat ullam facere hic accusantium cumque dicta laboriosam numquam.</li>
-            <li class="hover:text-gray-300 list-disc md:list-disc xl:list-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, suscipit porro nobis quae expedita facere quibusdam omnis laudantium quas dicta nisi beatae ea fugit architecto. Eos, tenetur? Mollitia, impedit rerum.</li>
-            <li class="hover:text-gray-300 list-disc md:list-disc xl:list-disc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus asperiores, impedit praesentium consectetur blanditiis atque ipsam natus facere, recusandae rem ullam, repudiandae ipsa et aperiam quasi obcaecati expedita laudantium sequi.</li>
-            <li class="hover:text-gray-300 list-disc md:list-disc xl:list-disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nulla voluptatum corporis mollitia praesentium soluta, non qui fugit aspernatur. Iure, quisquam sit? Ex, voluptatem asperiores accusantium libero deleniti et.</li>
-            <li class="hover:text-gray-300 list-disc md:list-disc xl:list-disc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, architecto libero? Quidem quae distinctio repudiandae atque quibusdam fugit amet? Dignissimos autem nisi dolore sint voluptatem perspiciatis, aspernatur dicta quisquam numquam.</li>
-        </ul>
+        <div class="bg-blue-700 bg-gradient-to-r from-blue-200 via-green-700 to-yellow-400 text-center font-extrabold text-5xl bg-clip-text text-transparent">Curso de Tailwind</div>
 
     </div>
 </body>
