@@ -2,6 +2,12 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+
+    fontFamily:{
+      'ubunt':['Ubuntu'],
+      'osw':['Oswald']
+    },
+
     container: {
       center: true,
     },
@@ -12,7 +18,7 @@ module.exports = {
 
         // Complex site-specific column configuration
         'footer': '200px minmax(900px, 1fr) 100px',
-      }
+      },
     },
   },
   variants: {
